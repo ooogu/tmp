@@ -93,11 +93,8 @@ Below data is only used for our evaluation.
 ### Compilers
 
 - gcc
-  
   - gcc-4.9.4
-  
   - gcc-5.5.0
-  
   - gcc-6.4.0
   
   - gcc-6.5.0
