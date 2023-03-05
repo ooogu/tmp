@@ -17,8 +17,8 @@ For a BCSA tool and ground truth building, please check
 [TikNib](https://github.com/SoftSec-KAIST/TikNib).
 
 ## Pre-compiled dataset and toolchain
-You can download our dataset and toolchain as below. The link will be changed
-to`git-lfs` soon.
+You can download our dataset and toolchain as below. The link will be changed to
+`git-lfs` soon.
 
 [//]: # (Cloning this repository also downloads below pre-compiled dataset and toolchain
 with `git-lfs`. Please use `GIT_LFS_SKIP_SMUDGE=1` to skip the download.)
@@ -40,10 +40,7 @@ Below data is only used for our evaluation.
 - [ASE dataset](https://drive.google.com/file/d/1MwXHRXjuPoQJAON6SZVoKcK6Xr2NMHdF/view?usp=sharing)
 
 ### `.pickle` Files
-
-These files include the extracted features and useful information for each
-function.
-
+These files include the extracted features and useful information for each function.
 - [Normal dataset `.pickle`](https://drive.google.com/file/d/1GjVoSXPvc7oTMJM4bIpmIOd6If7PTuOm/view?usp=sharing)
 - [SizeOpt dataset `.pickle`](https://drive.google.com/file/d/1MeT9Z5aaYf0kAtGxaCnHk8nyXJddPfqC/view?usp=sharing)
 - [Noinline dataset `.pickle`](https://drive.google.com/file/d/1bXj2ZjnNOGAijleBh5Tki1XZLG2i1Hng/view?usp=sharing)
@@ -77,9 +74,10 @@ Below data is only used for our evaluation.
 - Ofast
 
 ### Compilers
-- gcc-4.9.4
-- gcc-5.5.0
-- gcc-6.4.0  
+- gcc
+  - gcc-4.9.4
+  - gcc-5.5.0
+  - gcc-6.4.0  
 - gcc-6.5.0
 - gcc-7.3.0
 - gcc-8.2.0
