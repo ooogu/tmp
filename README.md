@@ -3,13 +3,15 @@
 BinKit is a binary code similarity analysis (BCSA) benchmark. BinKit provides
 scripts for building a cross-compiling environment, as well as the compiled
 dataset. The original dataset includes 1,352 distinct combinations of compiler
-options of 8 architectures, 5 optimization levels, and 13 compilers. It includes 243,128 unique binary. We currently tested this code in Ubuntu 16.04.
+options of 8 architectures, 5 optimization levels, and 13 compilers. It includes
+243,128 unique binary. We currently tested this code in Ubuntu 16.04.
 
 For more details, please check [our
 paper](https://0xdkay.me/pub/2020/kim-arxiv2020.pdf).
 
 The current dataset includes 1,904 distinct combinations of compiler
-options of 8 architectures, 6 optimization levels, and 23 compilers. It includes 371,928 unique binary.
+options of 8 architectures, 6 optimization levels, and 23 compilers. It includes
+371,928 unique binary.
 
 # BCSA tool and Ground Truth Building
 
@@ -18,10 +20,12 @@ For a BCSA tool and ground truth building, please check
 
 ## Pre-compiled dataset and toolchain
 
-You can download our dataset and toolchain as below. The link will be changed to`git-lfs` soon.
+You can download our dataset and toolchain as below. The link will be changed
+to`git-lfs` soon.
 
-[//]: # (Cloning this repository also downloads below pre-compiled dataset and toolchain
-with `git-lfs`. Please use `GIT_LFS_SKIP_SMUDGE=1` to skip the download.)
+[//]: # (Cloning this repository also downloads below pre-compiled dataset and
+toolchain with `git-lfs`. Please use `GIT_LFS_SKIP_SMUDGE=1` to skip the
+download.)
 
 ### Dataset
 
@@ -51,7 +55,8 @@ Below data is only used for our evaluation.
 
 ### `.pickle` Files
 
-These files include the extracted features and useful information for each function.
+These files include the extracted features and useful information for each
+function.
 
 - [Normal dataset `.pickle`](https://drive.google.com/file/d/1GjVoSXPvc7oTMJM4bIpmIOd6If7PTuOm/view?usp=sharing)
 - [SizeOpt dataset `.pickle`](https://drive.google.com/file/d/1MeT9Z5aaYf0kAtGxaCnHk8nyXJddPfqC/view?usp=sharing)
@@ -238,9 +243,12 @@ processing in the step 1, which is machine-dependent.
 
 ### Missing binaries
 
-In Fastopt dataset, the gsl package is missing 8 binaries due to compilation failure.
+In Fastopt dataset, the gsl package is missing 8 binaries due to compilation
+failure.
 
-Clang-8 and clang-9 induce compiler hang bug  when compiling gsl package for 32bit ARM. We reported this issue to bug-gsl and llvm-project, but we received an answer that these versions are not currently supported.
+Clang-8 and clang-9 induce compiler hang bug  when compiling gsl package for
+32bit ARM. We reported this issue to bug-gsl and llvm-project, but we received
+an answer that these versions are not currently supported.
 
 # Authors
 
