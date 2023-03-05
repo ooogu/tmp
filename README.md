@@ -25,7 +25,7 @@ with `git-lfs`. Please use `GIT_LFS_SKIP_SMUDGE=1` to skip the download.)
 
 ### Dataset
 
-[//]: # ([Normal dataset](https://drive.google.com/file/d/1K9ef-OoRBr0X5u8g2mlnYqh9o1i6zFij/view?usp=sharing
+[//]: # ([Normal dataset]\(https://drive.google.com/file/d/1K9ef-OoRBr0X5u8g2mlnYqh9o1i6zFij/view?usp=sharing)
 
 [//]: # ([SizeOpt dataset](https://drive.google.com/file/d/1QgwbEfd8vdzg5glNZFL7dg4l4hrkoWO3/view?usp=sharing
 
