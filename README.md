@@ -238,7 +238,7 @@ processing in the step 1, which is machine-dependent.
 
 ### Missing binaries
 
-In Fastopt dataset, the GSL package is missing 8 binaries due to compilation failure.
+In Fastopt dataset, the gsl package is missing 8 binaries due to compilation failure.
 
 Clang-8 and clang-9 induce compiler hang bug  when compiling gsl package for 32bit ARM. We reported this issue to bug-gsl and llvm-project, but we received an answer that these versions are not currently supported.
 
