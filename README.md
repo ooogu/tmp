@@ -236,7 +236,11 @@ $ python gnu_compile_script.py \
 If compilation fails, you may have to adjust the number of jobs for parallel
 processing in the step 1, which is machine-dependent.
 
-### asd
+### Missing binaries
+
+In Fastopt dataset, the GSL package is missing 8 binaries due to compilation failure.
+
+Clang-8 and clang-9 induce compiler hang bug  when compiling the arm_32 architecture as a target. We reported this issue to bug-gsl and llvm-project, but we received an answer that these versions are not currently supported.
 
 # Authors
 
