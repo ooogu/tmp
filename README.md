@@ -78,26 +78,28 @@ Below data is only used for our evaluation.
   - gcc-4.9.4
   - gcc-5.5.0
   - gcc-6.4.0  
-- gcc-6.5.0
-- gcc-7.3.0
-- gcc-8.2.0
-- gcc-9.4.0
-- gcc-10.3.0
-- gcc-11.2.0
-- clang-4.0.0
-- clang-5.0.2
-- clang-6.0.1
-- clang-7.0.1
-- clang-8.0.0
-- clang-9.0.1
-- clang-10.0.1
-- clang-11.0.1
-- clang-12.0.1
-- clang-13.0.0
-- clang-obfus-fla (Obfuscator-LLVM - FLA)
-- clang-obfus-sub (Obfuscator-LLVM - SUB)
-- clang-obfus-bcf (Obfuscator-LLVM - BCF)
-- clang-obfus-all (Obfuscator-LLVM - FLA + SUB + BCF)
+  - gcc-6.5.0
+  - gcc-7.3.0
+  - gcc-8.2.0
+  - gcc-9.4.0
+  - gcc-10.3.0
+  - gcc-11.2.0
+- clang
+  - clang-4.0.0
+  - clang-5.0.2
+  - clang-6.0.1
+  - clang-7.0.1
+  - clang-8.0.0
+  - clang-9.0.1
+  - clang-10.0.1
+  - clang-11.0.1
+  - clang-12.0.1
+  - clang-13.0.0
+- clang-obfus
+  - clang-obfus-fla (Obfuscator-LLVM - FLA)
+  - clang-obfus-sub (Obfuscator-LLVM - SUB)
+  - clang-obfus-bcf (Obfuscator-LLVM - BCF)
+  - clang-obfus-all (Obfuscator-LLVM - FLA + SUB + BCF)
 
 # How to use
 ### 1. Configure the environment in `scripts/env.sh`
